@@ -1,0 +1,121 @@
+# Instellingen voor de bewerkpagina (totdebodem.nl/admin).
+# Afleveringen zelf (titel, beschrijving, audio) beheer je in Spotify for Creators.
+
+backend:
+  name: github
+  repo: giorgioeisinger/tot-de-bodem
+  branch: main
+  commit_messages:
+    update: "Bijgewerkt: {{collection}} – {{slug}}"
+
+locale: nl
+site_url: https://totdebodem.nl
+display_url: https://totdebodem.nl
+logo_url: /favicon.svg
+
+media_folder: afbeeldingen
+public_folder: /afbeeldingen
+
+collections:
+  - name: algemeen
+    label: Algemeen
+    editor: { preview: false }
+    files:
+      - name: site
+        label: Website en Over ons
+        file: content/site.json
+        format: json
+        fields:
+          - { name: titel, label: Titel van de podcast, widget: string }
+          - { name: ondertitel, label: Ondertitel, widget: string }
+          - { name: intro, label: Introductietekst (startpagina), widget: text }
+          - { name: voettekst, label: Voettekst (onderaan elke pagina), widget: string }
+          - name: feed
+            label: Adres van de Spotify-feed
+            widget: string
+            hint: "Alleen aanpassen als je podcast naar een ander adres verhuist."
+          - name: over
+            label: Pagina "Over ons"
+            widget: object
+            fields:
+              - name: tekst
+                label: Alinea's
+                widget: list
+                field: { name: alinea, label: Alinea, widget: text }
+              - name: makers
+                label: Makers
+                widget: list
+                summary: "{{fields.naam}}"
+                fields:
+                  - { name: naam, label: Naam, widget: string }
+                  - { name: rol, label: Rol, widget: string, required: false }
+                  - { name: bio, label: Over deze maker, widget: text, required: false }
+                  - { name: foto, label: Foto, widget: image, required: false, choose_url: false }
+              - { name: contact, label: E-mailadres voor contact, widget: string, required: false, hint: "Leeg laten = niet tonen" }
+
+  - name: hoofdstukken
+    label: Hoofdstukken
+    editor: { preview: false }
+    files:
+      - name: hoofdstukken
+        label: Hoofdstukken en menu
+        file: content/hoofdstukken.json
+        format: json
+        fields:
+          - name: groepen
+            label: Groepen in het menu
+            widget: list
+            summary: "{{fields.titel}}"
+            hint: "De id gebruik je hieronder om een hoofdstuk aan een groep te koppelen."
+            fields:
+              - { name: id, label: "Id (kleine letters, geen spaties)", widget: string, pattern: ["^[a-z0-9-]+$", "Alleen kleine letters, cijfers en streepjes"] }
+              - { name: titel, label: Naam in het menu, widget: string }
+          - name: hoofdstukken
+            label: Hoofdstukken
+            widget: list
+            summary: "{{fields.nummer}} · {{fields.titel}}"
+            fields:
+              - { name: nummer, label: Nummer, widget: number, value_type: int, min: 1 }
+              - { name: groep, label: "Groep (id)", widget: string, hint: "basis, frankrijk, europa, nieuwe-wereld of stijlen" }
+              - { name: titel, label: Titel, widget: string }
+              - { name: ondertitel, label: Ondertitel, widget: string, required: false }
+              - { name: beschrijving, label: Beschrijving, widget: text, required: false }
+
+  - name: shownotes
+    label: Shownotes
+    editor: { preview: false }
+    files:
+      - name: shownotes
+        label: Shownotes per aflevering
+        file: content/shownotes.json
+        format: json
+        fields:
+          - name: afleveringen
+            label: Afleveringen
+            widget: list
+            summary: "{{fields.nummer}}"
+            hint: "Titel, beschrijving en audio komen uit Spotify. Hier voeg je extra's toe."
+            fields:
+              - { name: nummer, label: "Nummer van de aflevering (bv. 1.4)", widget: string, pattern: ["^\\d+\\.\\d+$", "Gebruik het nummer zoals op Spotify, bv. 1.4"] }
+              - { name: tekst, label: Extra tekst onder de beschrijving, widget: text, required: false }
+              - name: wijnen
+                label: Besproken wijnen
+                widget: list
+                required: false
+                field: { name: wijn, label: Wijn, widget: string }
+              - name: bronnen
+                label: Bronnen
+                widget: list
+                required: false
+                summary: "{{fields.titel}}"
+                fields:
+                  - { name: titel, label: Titel, widget: string }
+                  - { name: url, label: Link, widget: string, required: false }
+              - name: links
+                label: Links
+                widget: list
+                required: false
+                summary: "{{fields.titel}}"
+                fields:
+                  - { name: titel, label: Titel, widget: string }
+                  - { name: url, label: Link, widget: string }

@@ -1,0 +1,28 @@
+{
+  "titel": "Tot de bodem",
+  "ondertitel": "Een podcast over wijn en wetenschap",
+  "intro": "Wat proef je eigenlijk als je wijn proeft? In Tot de bodem duiken we in de wetenschap achter wijn: van de grond waarin de wijnstok wortelt tot de moleculen in je glas.",
+  "feed": "https://anchor.fm/s/11a0b6268/podcast/rss",
+  "voettekst": "Gemaakt met behulp van AI · Geniet met mate.",
+  "over": {
+    "tekst": [
+      "Tot de bodem is ontstaan uit nieuwsgierigheid: achter elk glas wijn zit een verhaal over geologie, biologie, scheikunde en het vakmanschap van mensen.",
+      "In elke aflevering nemen we één vraag als vertrekpunt en zoeken we uit wat de wetenschap erover zegt. Met gasten, onderzoek en natuurlijk een glas binnen handbereik."
+    ],
+    "makers": [
+      {
+        "naam": "Naam maker",
+        "rol": "Presentatie & onderzoek",
+        "bio": "Korte beschrijving van jezelf: achtergrond, waarom wijn en wetenschap, en wat je in de podcast doet.",
+        "foto": ""
+      },
+      {
+        "naam": "Tweede maker",
+        "rol": "Montage & productie",
+        "bio": "Verwijder dit blok als je de podcast alleen maakt, of voeg er meer toe.",
+        "foto": ""
+      }
+    ],
+    "contact": ""
+  }
+}

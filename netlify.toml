@@ -1,0 +1,14 @@
+# Geen bouwstap nodig: de site bestaat uit gewone bestanden.
+[build]
+  publish = "."
+
+# Teksten altijd vers ophalen, zodat wijzigingen via /admin direct zichtbaar zijn.
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"

@@ -1,0 +1,152 @@
+{
+    "groepen":  [
+                    {
+                        "id":  "basis",
+                        "titel":  "De basis"
+                    },
+                    {
+                        "id":  "frankrijk",
+                        "titel":  "Frankrijk"
+                    },
+                    {
+                        "id":  "europa",
+                        "titel":  "Europa"
+                    },
+                    {
+                        "id":  "nieuwe-wereld",
+                        "titel":  "Nieuwe Wereld"
+                    },
+                    {
+                        "id":  "stijlen",
+                        "titel":  "Bijzondere stijlen"
+                    }
+                ],
+    "hoofdstukken":  [
+                         {
+                             "nummer":  1,
+                             "groep":  "basis",
+                             "titel":  "De Wijngaard",
+                             "ondertitel":  "Klimaat, Bodem & Wijnbouwfactoren",
+                             "beschrijving":  "Behandelt de biologische jaarcyclus van de wijnstok en de anatomie van de druif. Analyseert hoe klimaattypes, bodemeigenschappen, geleidingssystemen en bladerdakbeheer de fotosynthese en rijping sturen, inclusief de beheersing van wijngaardrisico's en duurzaamheid."
+                         },
+                         {
+                             "nummer":  2,
+                             "groep":  "basis",
+                             "titel":  "Het Productieproces",
+                             "ondertitel":  "Wijnbereiding in de Kelder",
+                             "beschrijving":  "Volgt het wijnbereidingsproces van oogstbepaling, sortering en mostcorrecties (zoals chaptalisatie en aanzuren) tot de alcoholische gisting. Belicht specifieke vinificatiemethoden voor wit, rosé, rood en zoet, gevolgd door eikenhoutrijping, klaring, filtratie en flesafsluitingen."
+                         },
+                         {
+                             "nummer":  3,
+                             "groep":  "basis",
+                             "titel":  "Systematische Proefbenadering",
+                             "ondertitel":  "SAT",
+                             "beschrijving":  "Biedt een objectief, gestructureerd proefprotocol voor het analytisch beoordelen van wijn op uiterlijk, neus en gehemelte. Verklaart hoe zuren, suikers, tannines en alcohol samenkomen om kwaliteit en bewaarpotentieel via de BLIC-formule vast te stellen."
+                         },
+                         {
+                             "nummer":  4,
+                             "groep":  "basis",
+                             "titel":  "Van Kelder tot Tafel",
+                             "ondertitel":  "Klantenadvies, Opslag, Service & Wine-Food Pairing",
+                             "beschrijving":  "Beschrijft de optimale bewaarcondities (temperatuur, vocht, licht) en de fysische en biochemische spelregels rondom serveren, karafferen en glaswerk. Behandelt het diagnosticeren van wijnfouten (zoals TCA, reductie en oxidatie) en de interactieprincipes tussen smaakcomponenten in wijn en spijs."
+                         },
+                         {
+                             "nummer":  5,
+                             "groep":  "frankrijk",
+                             "titel":  "Bordeaux & Zuidwest-Frankrijk",
+                             "ondertitel": "",
+                             "beschrijving":  "Onderzoekt het maritieme klimaat en de bodemcontrasten tussen de kiezelrijke linkeroever (Médoc, Graves) en de klei-kalkbodems van de rechteroever (Saint-Émilion, Pomerol). Behandelt de historische classificaties van 1855, de edelzoete wijnen van Sauternes en de eigenzinnige appellaties van Sud-Ouest."
+                         },
+                         {
+                             "nummer":  6,
+                             "groep":  "frankrijk",
+                             "titel":  "Bourgogne & Beaujolais",
+                             "ondertitel": "",
+                             "beschrijving":  "Ontrafelt de versnipperde, perceelsgebonden AOC-terroirhiërarchie voor Chardonnay en Pinot Noir van Chablis via de Côte d'Or naar de Mâconnais. Besluit met de granietbodems van de Beaujolais en de productie van fruitige Gamay via koolzuur- en semi-koolzuurmaceratie."
+                         },
+                         {
+                             "nummer":  7,
+                             "groep":  "frankrijk",
+                             "titel":  "Elzas, Loire-vallei & Rhône",
+                             "ondertitel": "",
+                             "beschrijving":  "Verkent de zonnige, beschutte Elzas met zijn vier edele druiven en de diverse terroirs langs de Loire (van zilte Muscadet tot Chenin Blanc en Sauvignon Blanc). Verschuift vervolgens naar het Rhône-dal: van steile granietkloven met pure Syrah in het noorden tot de zonovergoten GSM-blends op rolkeien in het zuiden."
+                         },
+                         {
+                             "nummer":  8,
+                             "groep":  "frankrijk",
+                             "titel":  "Zuid-Frankrijk",
+                             "ondertitel":  "Languedoc, Roussillon & Provence",
+                             "beschrijving":  "Brengt de overgang in beeld van historische bulkwijn naar kwaliteitsgedreven appellaties en Pays d'Oc IGP onder een warm mediterraan klimaat. Behandelt de ruige schistterrassen van Roussillon, de beschermde mousserende wijnen van Limoux en de bleke kwaliteitsrosés en krachtige Mourvèdre (Bandol) uit de Provence."
+                         },
+                         {
+                             "nummer":  9,
+                             "groep":  "europa",
+                             "titel":  "Centraal-Europa & Duitse Regio's",
+                             "ondertitel":  "",
+                             "beschrijving":  "Focust op de koele rivierdalen van Duitsland met het Prädikats- en VDP-systeem en diept de individuele regio's (o.a. Mosel, Rheingau, Baden en Ahr) grondig uit. Behandelt daarnaast de strenge Oostenrijkse kwaliteitswijnwetgeving (DAC) en de botrytisgedreven, historische zoete Tokaji-traditie in Hongarije."
+                         },
+                         {
+                             "nummer":  10,
+                             "groep":  "europa",
+                             "titel":  "Griekenland & Noord-Italië",
+                             "ondertitel":  "",
+                             "beschrijving":  "Verkent inheemse oerdruiven op het vulkanische Santorini en het Griekse vasteland, gevolgd door de alpiene frisheid van Trentino-Alto Adige en oranjewijnen in Friuli. Behandelt vervolgens de diverse stijlen van Veneto (Soave en appassimento voor Amarone) en de prestigieuze Nebbiolo-appellaties (Barolo, Barbaresco) van Piemonte."
+                         },
+                         {
+                             "nummer":  11,
+                             "groep":  "europa",
+                             "titel":  "Midden- & Zuid-Italië",
+                             "ondertitel":  "",
+                             "beschrijving":  "Analyseert de expressie van Sangiovese op galestro- en albarese-bodems in binnenlands Toscane, afgezet tegen de kuststreek met zijn Super Tuscans. Behandelt de Apennijnen-terroirs van Marche en Abruzzo en sluit af met de hittebestendige druiven van het vulkanische zuiden (Campania, Puglia) en de eilanden Sicilië en Sardinië."
+                         },
+                         {
+                             "nummer":  12,
+                             "groep":  "europa",
+                             "titel":  "Spanje",
+                             "ondertitel":  "",
+                             "beschrijving":  "Legt uit hoe de hooggelegen Meseta Central en oceanische invloeden extreme zomertemperaturen temperen, gekoppeld aan de traditionele houtrijpingscategorieën en moderne herkomstlabels. Reist langs het groene noordwesten (Galicië), de Ebro-vallei (Rioja, Navarra), de Duero (Ribera del Duero, Rueda), de llicorella-leisteen van Priorat en het zonovergoten zuiden."
+                         },
+                         {
+                             "nummer":  13,
+                             "groep":  "europa",
+                             "titel":  "Portugal",
+                             "ondertitel":  "",
+                             "beschrijving":  "Behandelt het koele, maritieme noordwesten voor knisperende Vinho Verde en de steile, zonovergoten leisteenterrassen van de Douro voor hoogwaardige droge wijnen. Belicht tevens de historische kwaliteitsregio's Dão, Bairrada en Lisboa, en sluit af met de warme Alentejo en traditionele amforawijnen (vinhos de talha)."
+                         },
+                         {
+                             "nummer":  14,
+                             "groep":  "nieuwe-wereld",
+                             "titel":  "Verenigde Staten & Canada",
+                             "ondertitel":  "",
+                             "beschrijving":  "Verklaart de geografische opzet van het AVA-systeem en de klimatologische koelingsmechanismen (Californische zeestroom en kustmist) in Napa, Sonoma en de Central Coast. Behandelt het oceanische Willamette Valley (Oregon) tegenover de droge Columbia Valley (Washington) en sluit af met Canadese VQA-terroirs en authentieke Icewine."
+                         },
+                         {
+                             "nummer":  15,
+                             "groep":  "nieuwe-wereld",
+                             "titel":  "Chili, Argentinië & Zuid-Afrika",
+                             "ondertitel":  "",
+                             "beschrijving":  "Onderzoekt de natuurlijke barrières van Chili (de Humboldtstroom en de Andes) en de zonering Costa-Entre Cordilleras-Andes. Schakelt over naar de extreme hoogteligging en irrigatie met smeltwater in Argentinië (Mendoza, Uco Valley) en eindigt bij de door oceaanwinden (Cape Doctor) gekoelde kustterroirs van de Zuid-Afrikaanse Kaap."
+                         },
+                         {
+                             "nummer":  16,
+                             "groep":  "nieuwe-wereld",
+                             "titel":  "Australië & Nieuw-Zeeland",
+                             "ondertitel":  "",
+                             "beschrijving":  "Belicht Australië's phylloxera-vrije oude stokken, het GI-systeem en iconische regionale specialisaties zoals Barossa Shiraz, Coonawarra Cabernet en Clare Valley Riesling. Behandelt aansluitend Nieuw-Zeeland's hoge UV-straling, de schroefdoprevolutie en topregio's als Marlborough (Sauvignon Blanc) en Central Otago (Pinot Noir)."
+                         },
+                         {
+                             "nummer":  17,
+                             "groep":  "stijlen",
+                             "titel":  "Mousserende Wijnen Wereldwijd",
+                             "ondertitel":  "",
+                             "beschrijving":  "Vergelijkt de biochemie en productiemethoden (traditionele methode, Charmat/tankmethode, transfer en ancestrale). Behandelt krijtterroirs en rijpingsregels in Champagne, de Grandes Marques tegenover grower-champagnes en Crémants, de Spaanse Cava- en Corpinnat-dynamiek, Italiaanse tankbubbels (Prosecco, Asti) en koele-klimaatbubbels wereldwijd."
+                         },
+                         {
+                             "nummer":  18,
+                             "groep":  "stijlen",
+                             "titel":  "Versterkte Wijnen",
+                             "ondertitel":  "Port, Sherry, VDN, Muscats, Madeira & Marsala",
+                             "beschrijving":  "Ontleedt het breekpunt van fortificatie (vroege alcoholtoevoeging voor suikerbehoud versus late toevoeging na droge vergisting). Analyseert het terroir, de vinificatie en rijpingsstijlen van Port (Douro) en Sherry (Jerez, albariza, flor en solera), aangevuld met Franse Vins Doux Naturels, Rutherglen Muscats en oxidatieve iconen Madeira en Marsala."
+                         }
+                     ]
+}
